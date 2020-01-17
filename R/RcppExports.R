@@ -2,6 +2,6 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 OptionPricer <- function(S, r, v, t, b, k) {
-    .Call(`_OptionP_OptionPricer`, S, r, v, t, b, k)
+    .Call(`OptionP_OptionPricer`, S, r, v, t, b, k)
 }
 
